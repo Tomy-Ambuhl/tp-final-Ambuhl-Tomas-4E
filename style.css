@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F4F4F0;
+    color: #152C46;
+}
+
+
+
+header {
+    background-color: #152C46;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    margin: 10px;
+    font-size: 38px;
+}
+
+header p {
+    margin: 5px;
+}
+
+
+
+.logo {
+    background-color: #E63946;
+    color: white;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    margin: auto;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+
+nav {
+    background-color: #E63946;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: #152C46;
+}
+
+
+
+main {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    margin: 30px 0;
+}
+
+h2 {
+    color: #E63946;
+    font-size: 28px;
+}
+
+h3 {
+    color: #152C46;
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+
+.contenido {
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta {
+    background-color: #F4F4F0;
+    margin: 10px;
+    width: 230px;
+}
+
+
+
+.productos {
+    display: flex;
+    justify-content: center;
+}
+
+.producto {
+    background-color: #F4F4F0;
+    margin: 10px;
+    width: 220px;
+}
+
+.producto img {
+    width: 100%;
+    height: 220px;
+}
+
+
+
+.imagen-inicio {
+    width: 80%;
+    max-width: 650px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+
+
+.boton {
+    display: inline-block;
+    background-color: #E63946;
+    color: white;
+    padding: 12px 25px;
+    font-weight: bold;
+}
+
+.boton:hover {
+    background-color: #152C46;
+}
+
+
+
+.tarjeta a {
+    color: #E63946;
+    font-weight: bold;
+}
+
+
+
+footer {
+    background-color: #152C46;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
