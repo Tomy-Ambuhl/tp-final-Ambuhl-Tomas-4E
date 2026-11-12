@@ -92,19 +92,22 @@ p {
     border-bottom: 4px solid #FF4B55;
 }
 
+.producto {
+    display: inline-block;
+    width: 220px;
+    text-align: center;
+}
+
+.producto img {
+    width: 220px;
+    height: 220px;
+}
 
 .productos {
     display: flex;
     justify-content: center;
 }
 
-.producto {
-    background-color: #E4EFFB;
-    margin: 12px;
-    padding: 12px;
-    width: 220px;
-    border-bottom: 4px solid #FF4B55;
-}
 
 .producto h3 {
     color: #183153;
