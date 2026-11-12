@@ -92,6 +92,11 @@ p {
     border-bottom: 4px solid #FF4B55;
 }
 
+.productos {
+    width: 750px;
+    margin: auto;
+}
+
 .producto {
     display: inline-block;
     width: 220px;
@@ -103,10 +108,7 @@ p {
     height: 220px;
 }
 
-.productos {
-    display: flex;
-    justify-content: center;
-}
+
 
 
 .producto h3 {
