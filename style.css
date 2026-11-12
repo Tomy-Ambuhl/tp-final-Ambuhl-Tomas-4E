@@ -1,44 +1,42 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #F4F4F0;
-    color: #152C46;
+    background-color: #F1F6FC;
+    color: #183153;
 }
 
 
-
 header {
-    background-color: #152C46;
+    background-color: #183153;
     color: white;
     text-align: center;
+    padding: 20px;
 }
 
 header h1 {
     margin: 10px;
-    font-size: 38px;
+    font-size: 40px;
 }
 
 header p {
-    margin: 5px;
+    color: #DCEBFA;
 }
 
 
-
 .logo {
-    background-color: #E63946;
+    background-color: #FF4B55;
     color: white;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
     margin: auto;
-    font-size: 22px;
+    font-size: 23px;
     font-weight: bold;
 }
 
 
-
 nav {
-    background-color: #E63946;
+    background-color: #FF4B55;
     text-align: center;
     padding: 15px;
 }
@@ -47,12 +45,12 @@ nav a {
     color: white;
     font-weight: bold;
     margin: 15px;
+    text-decoration: none;
 }
 
 nav a:hover {
-    color: #152C46;
+    color: #183153;
 }
-
 
 
 main {
@@ -64,21 +62,21 @@ main {
 section {
     background-color: white;
     margin: 30px 0;
+    padding: 25px;
 }
 
 h2 {
-    color: #E63946;
-    font-size: 28px;
+    color: #FF4B55;
+    font-size: 29px;
 }
 
 h3 {
-    color: #152C46;
+    color: #183153;
 }
 
 p {
     line-height: 1.6;
 }
-
 
 
 .contenido {
@@ -87,11 +85,12 @@ p {
 }
 
 .tarjeta {
-    background-color: #F4F4F0;
-    margin: 10px;
+    background-color: #E4EFFB;
+    margin: 12px;
+    padding: 15px;
     width: 230px;
+    border-bottom: 4px solid #FF4B55;
 }
-
 
 
 .productos {
@@ -100,39 +99,44 @@ p {
 }
 
 .producto {
-    background-color: #F4F4F0;
-    margin: 10px;
+    background-color: #E4EFFB;
+    margin: 12px;
+    padding: 12px;
     width: 220px;
+    border-bottom: 4px solid #FF4B55;
 }
 
-.producto img {
-    width: 100%;
+.producto h3 {
+    color: #183153;
+}
+
+.producto p {
+    color: #E63946;
+    font-weight: bold;
+}
+
+
+img {
+    width: 220px;
     height: 220px;
 }
 
 
 
-.imagen-inicio {
-    width: 80%;
-    max-width: 650px;
-    height: 300px;
-    margin-top: 20px;
-}
-
 
 
 .boton {
     display: inline-block;
-    background-color: #E63946;
+    background-color: #FF4B55;
     color: white;
     padding: 12px 25px;
+
     font-weight: bold;
 }
 
 .boton:hover {
-    background-color: #152C46;
+    background-color: #183153;
 }
-
 
 
 .tarjeta a {
@@ -141,9 +145,8 @@ p {
 }
 
 
-
 footer {
-    background-color: #152C46;
+    background-color: #183153;
     color: white;
     text-align: center;
     padding: 20px;
